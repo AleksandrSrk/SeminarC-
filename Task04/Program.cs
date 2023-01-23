@@ -12,7 +12,7 @@ if (max < number2)
 {
     max = number2;
 }
-else if (max < number3)
+if (max < number3)
 {
     max = number3;
 }
