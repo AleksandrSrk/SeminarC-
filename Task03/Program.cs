@@ -1,7 +1,7 @@
 ﻿// ЗАДАЧА 03 Выдавать название недели по заданному номеру
 
 Console.WriteLine("Введите номер дня недели от 1 до 7: ");
-string numberWeek = Console.ReadLine();
+string? numberWeek = Console.ReadLine();
 
 if (numberWeek == "1") { Console.WriteLine($"Номер {numberWeek} соответствует Понедельнику"); }
 else if (numberWeek == "2") { Console.WriteLine($"Номер {numberWeek} соответствует Вторнику"); }
@@ -11,7 +11,6 @@ else if (numberWeek == "5") { Console.WriteLine($"Номер {numberWeek} соо
 else if (numberWeek == "6") { Console.WriteLine($"Номер {numberWeek} соответствует Субботе"); }
 else if (numberWeek == "7") { Console.WriteLine($"Номер {numberWeek} соответствует Воскресению"); }
 else { Console.WriteLine("ОШИБКА!!! Нужно ввести номер дня недели от 1 до 7!"); }
-
 
 // Вариант решения задачи через свич кейс:
 
